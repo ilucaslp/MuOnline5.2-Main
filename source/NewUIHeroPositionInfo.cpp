@@ -21,20 +21,17 @@ CNewUIHeroPositionInfo::~CNewUIHeroPositionInfo()
 	Release();
 }
 
-//---------------------------------------------------------------------------------------------
-// Create
 bool CNewUIHeroPositionInfo::Create(CNewUIManager* pNewUIMng, int x, int y)
 {
-	if (NULL == pNewUIMng)
+	if (pNewUIMng == nullptr)
 		return false;
-
 	m_pNewUIMng = pNewUIMng;
 	m_pNewUIMng->AddUIObj(SEASON3B::INTERFACE_HERO_POSITION_INFO, this);
 
-	WidenX = (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH + (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH * 0.2f));
+	WidenX = HERO_POSITION_INFO_BASEB_WINDOW_WIDTH + (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH * 0.2f);
 	if (WindowWidth > 800)
 	{
-		WidenX = (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH + (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH * 0.4f));
+		WidenX = HERO_POSITION_INFO_BASEB_WINDOW_WIDTH + (HERO_POSITION_INFO_BASEB_WINDOW_WIDTH * 0.4f);
 	}
 
 	SetPos(x, y);
@@ -91,7 +88,7 @@ bool CNewUIHeroPositionInfo::Create(CNewUIManager* pNewUIMng, int x, int y)
 		0,
 		1,
 		1u,
-		btname2,
+		btname3,
 		tooltiptext3,
 		0);
 
@@ -125,6 +122,8 @@ bool CNewUIHeroPositionInfo::BtnProcess()
 {
 	if (m_BtnConfig.UpdateMouseEvent())
 	{
+		g_pNewUISystem->Toggle(SEASON3B::INTERFACE_MUHELPER);
+		PlayBuffer(SOUND_CLICK01);
 		return true;
 	}
 	else
