@@ -66,7 +66,7 @@ git push origin minha-branch
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License](LICENSE.txt).
 
 ## Postagem Oficial do Fórum
 
