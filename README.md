@@ -4,7 +4,7 @@ Este repositório Git contém a versão aprimorada da Main.exe do MuOnline, base
 
 ## Descrição
 
-A Main.exe é um componente essencial do MuOnline, responsável por executar o cliente do jogo e coordenar a interação entre os jogadores e o servidor. Esta versão específica da Main.exe foi desenvolvida com base na source 5.2 do MuOnline e foi aprimorada para oferecer correções de bugs e melhorias de desempenho específicas da versão 6.3.
+A Main.exe é um componente essencial do MuOnline, responsável por executar o cliente do jogo e coordenar a interação entre os jogadores e o servidor. Esta versão específica da Main.exe foi desenvolvida com base na source 5.2 do MuOnline e foi aprimorada para oferecer correções de bugs e melhorias da Season 6.
 
 ## Recursos e Aprimoramentos
 
@@ -56,6 +56,7 @@ git push origin minha-branch
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
-## Contato
+## Postagem Oficial do Fórum
 
-Se você tiver alguma dúvida, sugestão ou problema relacionado a este repositório, sinta-se à vontade para entrar em contato conosco via [email](mailto:seu-email@example.com) ou abrindo uma nova issue.
+Confira a postagem oficial do fórum no tópico [TuServerMu](https://tuservermu.com.ve/index.php?topic=57374.msg294187#msg294187) para obter mais informações e discussões relacionadas.
+
