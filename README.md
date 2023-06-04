@@ -14,11 +14,23 @@ A Main.exe é um componente essencial do MuOnline, responsável por executar o c
 - Novos recursos: Introduzimos novos recursos e funcionalidades na Main.exe para melhorar a jogabilidade e enriquecer a experiência dos jogadores.
 - Documentação: Incluímos uma documentação detalhada para auxiliar os desenvolvedores na compreensão do código-fonte e na realização de modificações personalizadas.
 
+## Requisitos
+
+Certifique-se de ter os seguintes requisitos antes de prosseguir:
+
+- [Microsoft SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+- [Visual Studio](https://visualstudio.microsoft.com/pt-br/downloads)
+- [Source Server](https://github.com/ProjectRebirthMu/Server)
+
 ## Instalação
 
 1. Clone este repositório em seu ambiente de desenvolvimento local:
 
-git clone (https://github.com/ProjectRebirthMu/Main)
+1. Clone este repositório para sua máquina local:
+
+   ```bash
+   git clone https://github.com/ProjectRebirthMu/Main
+   ```
 
 2. Certifique-se de ter as ferramentas e dependências necessárias instaladas para compilar o código-fonte da Main.exe.
 
@@ -26,7 +38,7 @@ git clone (https://github.com/ProjectRebirthMu/Main)
 
 4. Copie o executável gerado para o diretório adequado do seu servidor de MuOnline.
 
-5. Execute o servidor de MuOnline e verifique se a Main.exe está funcionando corretamente.
+5. Execute o servidor e verifique se a Main.exe está funcionando corretamente.
 
 ## Contribuição
 
