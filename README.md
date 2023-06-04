@@ -48,7 +48,9 @@ Se você deseja contribuir para este projeto, siga as etapas abaixo:
 
 2. Crie uma nova branch para suas modificações:
 
+```bash
 git checkout -b minha-branch
+```
 
 3. Faça as modificações necessárias e adicione os novos recursos.
 
@@ -56,11 +58,15 @@ git checkout -b minha-branch
 
 5. Commit suas alterações:
 
+```bash
 git commit -m "Minhas modificações"
-
+```
+   
 6. Faça push para o repositório remoto:
 
+```bash
 git push origin minha-branch
+```
 
 7. Crie um novo pull request neste repositório.
 
